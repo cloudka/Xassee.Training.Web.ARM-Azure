@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+    "parameters": {
+
+        "publicHostingPlanName": {
+            "value": "diyakadevops-ci-hp-public"
+        },
+
+        "apiHostingPlanName": {
+            "value": "diyakadevops-ci-hp-public"
+        },
+
+        "publicWebSiteName": {
+            "value": "diyakadevops-ci-web-public"
+        },
+        "apiWebSiteName": {
+            "value": "diyakadevops-ci-api-crm"
+        },
+
+
+        "crmSqlserverName": {
+            "value": "diyakadevops-ci-sql-crm"
+        },
+        "administratorLogin": {
+            "value": "superadmin"
+        },
+        "administratorLoginPassword": {
+            "value": ""
+        },
+        "crmDatabaseName": {
+            "value": "CRM"
+        },
+        "edition": {
+            "value": "Basic"
+        },
+        "crmApiName": {
+            "value": "diyakadevops-ci-api-crm"
+        }
+    }
+}
